@@ -1,0 +1,32 @@
+.firstOrderBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 20px;
+  margin-top: 55px;
+}
+
+.getDiscount {
+  color: white;
+}
+
+.getEmail {
+  color: white;
+}
+
+.inputField {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+}
+
+.signUpBtn {
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 10px;
+}
