@@ -35,7 +35,7 @@ function Footer() {
             <Link href="/contact">Contact Us</Link>
           </li>
           <li className={styles.footerListItem}>
-            <Link href="/shipping-and-returns">Shipping & Returns</Link>
+            <Link href="/shipping">Shipping & Returns</Link>
           </li>
           <li className={styles.footerListItem}>
             <Link href="/FAQ">FAQ'S</Link>
