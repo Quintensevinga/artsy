@@ -33,7 +33,9 @@
 }
 
 .quote {
-  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: 500;
   color: #fff;
   margin-bottom: 20px;
 }
@@ -45,4 +47,5 @@
   font-size: 12px;
   border: none;
   cursor: pointer;
+  text-decoration: none;
 }

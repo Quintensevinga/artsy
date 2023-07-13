@@ -1,4 +1,6 @@
 import styles from './header.module.css';
+import Link from 'next/link';
+
 
 function Header() {
   return (
@@ -9,7 +11,9 @@ function Header() {
       </div>
       <div className={styles.content}>
         <h1 className={styles.quote}>EMBRACE THE ARTIST WITHIN</h1>
-        <button className={styles.button}>SHOP NOW</button>
+        <Link href="/shop-art" className={styles.button}>
+          SHOP NOW
+        </Link>
       </div>
     </div>
   );
