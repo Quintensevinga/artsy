@@ -1,0 +1,20 @@
+.classicsTitle {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.classicsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.classicsItem {
+  height: 335px;
+  width: 280px;
+}
+
+.classicsPrice {
+  color: rgb(109, 108, 108);
+}
