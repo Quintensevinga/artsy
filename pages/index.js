@@ -1,9 +1,9 @@
-// import Header from "../components/navbar/header/header";
+import Header from "../components/header/header";
 
 function HomePage() {
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
     </div>
   )
 }

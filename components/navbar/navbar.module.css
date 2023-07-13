@@ -54,6 +54,7 @@
 .navbarIcons {
   display: flex;
   margin-right: 30px;
+  gap: 10px;
 }
 
 .iconLink {
@@ -61,10 +62,6 @@
   align-items: center;
   margin-left: 10px;
   text-decoration: none;
-  color: #000;
+  color: black;
 }
 
-.iconLink img {
-  width: 20px;
-  height: 20px;
-}

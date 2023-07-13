@@ -1,5 +1,9 @@
 import Link from 'next/link';
 import styles from './navbar.module.css';
+import { FiShoppingBag, FiHeart, FiUser } from 'react-icons/fi';
+
+
+
 
 function Navbar() {
   return (
@@ -25,11 +29,14 @@ function Navbar() {
           </Link>
         </div>
         <div className={styles.navbarIcons}>
-          <Link href="/cart" className={styles.iconLink}>
-            <img src="/shopping-bag.svg" alt="Shopping Bag" />
+          <Link href="/account" className={styles.iconLink}>
+            <FiUser size={20} color="black" />
           </Link>
-          <Link href="/notifications" className={styles.iconLink}>
-            <img src="/bell.svg" alt="Notifications" />
+          <Link href="/wishlist" className={styles.iconLink}>
+            <FiHeart size={20} color="black" />
+          </Link>
+          <Link href="/cart" className={styles.iconLink}>
+            <FiShoppingBag size={20} color="black" />
           </Link>
         </div>
       </nav>
