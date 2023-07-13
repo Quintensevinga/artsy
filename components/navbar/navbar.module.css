@@ -1,0 +1,70 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbarList {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbarList a {
+  color: #000;
+  text-decoration: none;
+  position: relative;
+  font-size: 14px;
+}
+
+.navbarList a::after {
+  content: "";
+  position: absolute;
+  bottom: -27px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.5s ease-out;
+}
+
+.navbarList a:hover::after,
+.navbarList a:focus::after {
+  width: 100%;
+}
+
+.logoContainer {
+  position: absolute;
+  top: 21px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+
+.navbarIcons {
+  display: flex;
+  margin-right: 30px;
+}
+
+.iconLink {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.iconLink img {
+  width: 20px;
+  height: 20px;
+}
