@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid lightgray;
   width: 100%;
 }
 
@@ -89,7 +89,7 @@
   text-decoration: none;
   background-color: white;
   z-index: 1;
-  border: 1px solid black;
+  border: 1px solid lightgray;
 }
 
 .dropDownMenuItem {

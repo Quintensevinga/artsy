@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './collection.module.css';
 import items from '../../Data/db';
 
@@ -10,9 +11,7 @@ function Collection() {
           <p className={styles.classicsDescr}>{item.description}</p>
           <p className={styles.classicsPrice}>{item.price}</p>
           <div className={styles.custButton}>
-            <a href={`/shop-art/customize-${item.index}`} className={styles.btn}>
-              CUSTOMIZE
-            </a>
+            <Link href={`/customize/${item.index}`} className={styles.btn}>CUSTOMIZE</Link>
           </div>
         </div>
       ))}

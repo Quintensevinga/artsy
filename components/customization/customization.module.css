@@ -1,0 +1,41 @@
+.imageItem {
+  max-width: 70px;
+  max-height: 70px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.customizeBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+.imageScrollBox {
+  max-height: 466px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  overflow-x: auto;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  margin: 0 15px;
+  box-sizing: border-box;
+}
+
+.sizeItem {
+  max-width: 150px;
+  max-height: 150px;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+
+.addToCart {
+  padding: 10px;
+}
+
+.addWishlist {
+  padding: 10px;
+}

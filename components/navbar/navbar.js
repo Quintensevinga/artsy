@@ -31,7 +31,6 @@ function Navbar() {
             </ul>
           </li>
         </ul>
-
         <div className={styles.logoContainer}>
           <Link href="/" className={`${styles.logo} logo`}>
             ARTSY
