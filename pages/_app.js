@@ -1,6 +1,7 @@
 import '../styles/global.css';
 import Navbar from '../components/navbar/navbar';
 import Footer from '../components/footer/footer';
+import FirstOrderDiscount from '../components/firstOrderDiscount/firstOrderDiscount';
 
 function MyApp({ Component, pageProps }) {
   // You can add layout components or global functionality here
@@ -8,6 +9,7 @@ function MyApp({ Component, pageProps }) {
     <div>
       <Navbar />
       <Component {...pageProps} />
+      <FirstOrderDiscount />
       <Footer />
     </div>
   )

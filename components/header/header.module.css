@@ -48,5 +48,6 @@
   border: none;
   cursor: pointer;
   text-decoration: none;
+  border-radius: 3px;
 }
 

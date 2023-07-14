@@ -1,0 +1,74 @@
+.classicsTitle {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.classicsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 40px;
+  margin-top: 75px;
+  margin-bottom: 100px;
+}
+
+.classicsBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.classicsItem {
+  position: relative;
+  height: 335px;
+  width: 280px;
+}
+
+.classicsDescr {
+  margin-bottom: 5px;
+}
+
+.classicsPrice {
+  color: rgb(109, 108, 108);
+  font-weight: 400;
+  font-size: smaller;
+  margin: 0;
+}
+
+.custButton {
+  position: absolute;
+  bottom: 90px;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  text-align: center;
+  opacity: 0;
+  /* Set initial opacity to hide the button */
+  transition: opacity 0.3s ease;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.classicsBox:hover .custButton {
+  opacity: 1;
+}
+
+.classicsItem:hover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  /* Set the overlay color to gray with some opacity */
+}

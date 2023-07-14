@@ -1,9 +1,10 @@
-import Classics from "../components/classics/classics";
-
+import Collection from "../components/shop-art/collection";
+import UnderNavbar from "../components/underNavbar/underNavbar";
 function ShopArt() {
   return (
     <div>
-      <Classics />
+      <UnderNavbar />
+      <Collection />
     </div>
   )
 }

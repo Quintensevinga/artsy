@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1.5px solid black;
+  border-bottom: 1px solid black;
   width: 100%;
 }
 
@@ -32,7 +32,7 @@
   bottom: -27px;
   left: 0;
   width: 0;
-  height: 2px;
+  height: 3px;
   background-color: #000;
   transition: width 0.5s ease-out;
 }
@@ -59,7 +59,7 @@
 .navbarIcons {
   display: flex;
   margin-right: 30px;
-  gap: 10px;
+  gap: 15px;
 }
 
 .iconLink {
@@ -96,6 +96,6 @@
   padding: 6px;
 }
 
-.dropDownMenuItem a {
-  text-decoration: none;
+.dropDownMenuItem a::after {
+  display: none;
 }

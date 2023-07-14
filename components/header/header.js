@@ -10,7 +10,7 @@ function Header() {
         <div className={styles.overlay}></div>
       </div>
       <div className={styles.content}>
-        <h1 className={styles.quote}>EMBRACE THE ARTIST WITHIN</h1>
+        <h1 className={styles.quote}>EMBRACE THE ARTIST WITHIN.</h1>
         <Link href="/shop-art" className={styles.button}>
           SHOP NOW
         </Link>
